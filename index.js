@@ -24,4 +24,5 @@ function makeElementMove() {
 
 document.getElementById('no').addEventListener('mouseover', makeElementMove)
 
+//Fazendo o evento no click porque no mobile não tem hover
 document.getElementById('no').addEventListener('click', makeElementMove)
