@@ -1,0 +1,26 @@
+body {
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 300;
+    background-color: #DE3163;
+}
+button {
+    display: block;
+    width: 100px;
+    padding: 15px;
+    margin-top: 5px;
+}
+#no {
+    position: fixed;
+}
+
+video {
+    display: none;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
